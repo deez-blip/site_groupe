@@ -77,6 +77,20 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.passion{
+    height: 500px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+}
+.projet{
+    height: 500px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+}
 
 
 /* IMAGE */
@@ -100,4 +114,8 @@ body{
 .texte h2{
     padding-top: 15px;
     margin-inline: 20%;
+}
+
+.none{
+    display: none;
 }
