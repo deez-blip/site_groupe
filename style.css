@@ -1,3 +1,7 @@
+body {
+    font-size: 18px;
+}
+
 h1 {
     text-align: center;
 }
@@ -22,4 +26,26 @@ button {
     background-color: #E3E3E3;
     border-color: #B2B2B2;
     border-radius: 15px;
+}
+
+.lol {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#lol {
+    width: 40%;
+}
+
+.jeu_video {
+    margin-top: 2em;
+    text-align: center;
+}
+
+#jv {
+    background-color: #E3E3E3;
+    border-color: #B2B2B2;
+    border-style: groove;
+    padding: 2em;
 }
