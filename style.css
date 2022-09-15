@@ -1,5 +1,7 @@
 body {
     font-size: 18px;
+    background-color: #353535;
+    color: white;
 }
 
 h1 {
@@ -23,8 +25,8 @@ a:link {
 button {
     font-size: 16px;
     padding: 1em;
-    background-color: #E3E3E3;
-    border-color: #B2B2B2;
+    background-color: #FF0000;
+    border-color: #870000;
     border-radius: 15px;
 }
 
@@ -48,4 +50,31 @@ button {
     border-color: #B2B2B2;
     border-style: groove;
     padding: 2em;
+}
+
+#akali {
+    width: 50%;
+    border-radius: 90px;
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;
+    color: black;
+    background-color: black;
+    padding: 2em;
+    border-radius: 40px;
+}
+
+#presentation {
+    line-height: 5em;
+    background-color: #FF9797;
+    padding: 2em;
+    padding-left: 6em;
+    padding-right: 6em;
+    border-style: groove;
+    border-color: #FF0000;
+    border-radius: 20%;
 }
