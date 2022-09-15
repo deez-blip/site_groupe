@@ -4,31 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylethea.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <nav>
-
         </nav>
     </header>
     <main>
-        <div>
-            <h1>Présentation</h1>
-            <div>
-                <img src="images/da6a334429d61861aee1f0a78c5d347f.jpg" alt="">
-                <p>Théa Blachon est une étudiante en deuxieme année à l'IIM dans l'axe Coding & Sigital Innovation.
-                    Elle habite à Pontoise et mesure 1 mètre 63.
-                </p>
-            </div>
-            <div>
+        <ul class="tabs">
+            <li class="tab tab_presentation tab_active">
+                <h2>Présentation</h2>
+            </li>
+            <li class="tab tab_passion">
                 <h2>Passion</h2>
-                <p>Théa possède une passion dévorante pour les jeux vidéo, les manga et la musique.</p>
-            </div>
-            <div>
+            </li>
+            <li class="tab tab_projet">
                 <h2>Projet</h2>
-                <p></p>
-            </div>
+            </li>
+        </ul>
+        <div class="content presentation active">
+            <img class="img_presentation" src="images/da6a334429d61861aee1f0a78c5d347f.jpg" alt="">
+            <p class="texte_presentation">Théa Blachon est une étudiante en deuxieme année à l'IIM dans l'axe Coding & Sigital Innovation.
+            Elle habite à Pontoise et mesure 1 mètre 63.
+            </p>
+        </div>
+        <div class="content passion">
+            <p>Théa possède une passion dévorante pour les jeux vidéo, les manga et la musique.</p>
+        </div>
+        <div class="content projet">
+            <p>Ceci est un message test</p>
         </div>
     </main>
     <footer>
