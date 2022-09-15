@@ -46,10 +46,12 @@ button {
 }
 
 #jv {
-    background-color: #E3E3E3;
-    border-color: #B2B2B2;
+    background-color: #FF0000;
+    border-color: #870000;
     border-style: groove;
     padding: 2em;
+    text-align: center;
+    line-height: 2em;
 }
 
 #akali {
