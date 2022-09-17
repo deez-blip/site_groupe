@@ -4,7 +4,8 @@ body {
     color: white;
 }
 
-h1 {
+h1,
+h3 {
     text-align: center;
 }
 
@@ -79,4 +80,31 @@ button {
     border-style: groove;
     border-color: #FF0000;
     border-radius: 20%;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.anime_manga {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-radius: 40px;
+    padding-right: 3em;
+    padding-bottom: 3em;
+}
+
+#fmab {
+    width: 90%;
+}
+
+#tkrvg {
+    width: 104%;
+}
+
+.manga,
+.anime {
+    text-align: center;
 }
