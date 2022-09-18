@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <ul class="ul_nav">
+                <li><a href="gaspard.html">Gaspard</a></li>
+                <li><a href="ambroise.html">Ambroise</a></li>
+                <li><a href="thea.html">Théa</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+
+        <div class="titre_ambroise">
+            <h1>Ambroise Piétu</h1>
+        </div>
+        <div class="button">
+            <button class="active" id="qui"><span>QUI</span></button>
+            <button id="passion"><span>Passion</span></button>
+            <button id="projet"><span>Projet</span></button>
+        </div>
+        <div class="filtre description" id="qui">
+            <div class="image">
+                <img src="pavel.jpg" alt="pp Ambroise">
+            </div>
+            <div class="texte">
+                <h2>Nom/Prénom : Ambroise Piétu</h2>
+                <h2>Age : 23 ans</h2>
+                <h2>Date de naissance : 02/05/1999</h2>
+                <h2>Ville : Nogent-sur-Marne</h2>
+                <h2>Taille : 1m72</h2>
+                <h2>Axe actuel : A2 Coding</h2>
+                <h2>Intérêts : Echecs, Histoire, Jeux Vidéo</h2>
+            </div>
+        </div>
+
+        <div class="filtre passion none" id="passion">
+            <div class="image">
+                <img src="echec.png" alt="image echec">
+            </div>
+            <div class="texte_passion">
+                <h2>Il trouve que c'est un jeu intéressant avec toute l'histoire qui l'entoure. On a des théorèmes de mathématiques qui ont été découvert grâce à ce jeu et beaucoup d'avancées en programmation ou encore en fabrication d'automates y sont directement liées.</h2>
+            </div>
+        </div>
+
+        <div class="filtre passion none" id="passion">
+            <div class="texte_passion histoire">
+                <h2>Il s'intéresse à pas mal de périodes de l'histoire parce qu'il trouve que ça aide à découvrir de nouvelles façons de penser et d'autres cultures. Cela permet aussi de comprendre différents pays et leur fonctionnement aujourd'hui. Il aime bien les mythes et légendes donc il s'intéresse plus à des civilisations dont les mythes ont un impact culturel encore aujourd'hui par exemple les sumériens avec Gilgamesh.</h2>
+            </div>
+            <div class="image_histoire">
+                <img src="histoire.jpg" alt="image echec">
+            </div>
+        </div>
+
+        <div class="filtre passion none" id="passion">
+            <div class="image_jv">
+                <img src="golden_sun.jpg" alt="image echec">
+            </div>
+            <div class="texte_passion jv">
+                <h2>Ambroise joue surtout à des jeux de rôle. Il joue beaucoup à Fire Emblem. Sinon aussi à Smash mais il préfère jouer en multijoueur local. Golden Sun est aussi une série de jeux vidéo qu'il aime et c'est d'où vient son image de profil (image dans la page "Qui") et qu'il a fini, chacun des trois jeux, au moins 4 fois.</h2>
+            </div>
+        </div>
+
+        <div class="filtre projet none" id="projet">
+            <div class="image">
+                <video controls>
+                    <source src="Robo.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="texte_projet">
+                <h2>Dessin qu'Ambroise a fait sur papier puis qu'il a refait et modifié sur Illustrator</h2>
+            </div>
+        </div>
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
