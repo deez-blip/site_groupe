@@ -10,6 +10,7 @@
 }
 *{
     margin: 0;
+    padding: 0;
     font-family: var(--text-font);
     list-style: none;
 }
@@ -24,6 +25,26 @@ ul{
     margin-bottom: 20px;
     margin-top: 20px;
     flex-wrap: wrap;
+}
+nav{
+    width:100%;
+    background-color: black;
+    text-align: end;
+}
+.ul_nav{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.5%;
+    margin-top: 0;
+}
+.ul_nav a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.ul_nav li{
+    font-size: 40px;
+    padding-inline: 20px;
 }
 p{
     font-family: var(--paragraph-font);
@@ -49,7 +70,8 @@ h1{
 }
 .img_p{
     margin-right: 5%;
-    max-width: 50%;
+    height: 300px;
+    max-width: 70%;
 }
 .content{
     display: flex;
