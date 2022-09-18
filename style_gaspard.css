@@ -1,0 +1,248 @@
+body {
+    font-size: 18px;
+    background-color: #353535;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #FF0000;
+    text-align: end;
+}
+
+.ul_nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.5%;
+}
+
+.ul_nav a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.ul_nav li {
+    font-size: 40px;
+    padding-inline: 20px;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    font-size: 16px;
+    padding: 1em;
+    background-color: #FF0000;
+    border-color: #870000;
+    border-radius: 15px;
+}
+
+.lol {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#lol {
+    width: 40%;
+}
+
+.jeu_video {
+    margin-top: 2em;
+    text-align: center;
+}
+
+#jv {
+    background-color: #FF0000;
+    border-color: #870000;
+    border-style: groove;
+    padding: 2em;
+    text-align: center;
+    line-height: 2em;
+}
+
+#akali {
+    width: 50%;
+    border-radius: 90px;
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;
+    color: black;
+    background-color: black;
+    padding: 2em;
+    border-radius: 40px;
+}
+
+#presentation {
+    line-height: 5em;
+    background-color: #FF9797;
+    padding: 2em;
+    padding-left: 6em;
+    padding-right: 6em;
+    border-style: groove;
+    border-color: #FF0000;
+    border-radius: 20%;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.anime_manga {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fmab {
+    width: 90%;
+}
+
+#tkrvg {
+    width: 104%;
+}
+
+.passion2 {
+    background-color: black;
+    border-radius: 40px;
+    padding-right: 3em;
+    padding-bottom: 2em;
+}
+
+#anime_manga {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.manga,
+.anime {
+    text-align: center;
+}
+
+#escalade {
+    width: 40%;
+}
+
+.escalade {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;
+    color: black;
+    background-color: black;
+    padding: 2em;
+    border-radius: 40px;
+}
+
+#texte_escalade {
+    background-color: #FF0000;
+    border-color: #870000;
+    border-style: groove;
+    padding: 2em;
+    text-align: center;
+    line-height: 2em;
+}
+
+.escalade_titre {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 10px;
+    }
+    #presentation {
+        line-height: 2em;
+        padding: 1em;
+    }
+    button {
+        font-size: 12px;
+    }
+    #jv {
+        padding: 1em;
+        line-height: 1.5em;
+        margin-left: 1em;
+    }
+    .anime_manga {
+        flex-direction: column;
+    }
+    .passion2 {
+        padding-right: 0em;
+        padding-bottom: 2em;
+    }
+    #tkrvg {
+        width: 90%;
+    }
+    .ul_nav li {
+        font-size: 20px;
+        padding-inline: 20px;
+    }
+    #texte_escalade {
+        padding: 1em;
+        line-height: 1em;
+        margin-left: 1em;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1024px) {
+    body {
+        font-size: 14px;
+    }
+    #presentation {
+        line-height: 3em;
+        padding: 1.5em;
+    }
+    button {
+        font-size: 16px;
+    }
+    #jv {
+        padding: 1em;
+        line-height: 1.5em;
+        margin-left: 1em;
+    }
+    .ul_nav li {
+        font-size: 30px;
+        padding-inline: 20px;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1700px) {
+    body {
+        font-size: 18px;
+    }
+    #presentation {
+        line-height: 4em;
+        padding: 2em;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    button {
+        font-size: 16px;
+    }
+    #jv {
+        padding: 1em;
+        line-height: 1.5em;
+        margin-left: 1em;
+    }
+}

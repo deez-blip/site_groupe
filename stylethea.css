@@ -1,0 +1,123 @@
+:root{
+	--main-color:rgba(20, 80, 200, 0.2);
+	--text-color:#000;
+    --text-active-color: #fff;
+	--active:#730baa;
+    --inactive:#bbb;
+	--text-font:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --paragraph-font: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: var(--main-color);
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+p{
+    font-family: var(--paragraph-font);
+}
+nav{
+    width:100%;
+    background-color: black;
+    text-align: end;
+}
+.ul_nav{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0.5%;
+    margin-top: 0;
+}
+.ul_nav a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.ul_nav li{
+    font-size: 40px;
+    padding-inline: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: var(--active);
+    text-align: center;
+    font-family: var(--text-font);
+}
+h2{
+    font-family: var(--text-font);
+}
+.tab{
+    background-color: var(--inactive);
+    color: var(--text-color);
+    padding: 5px;
+}
+.tab :hover{
+    cursor: pointer;
+}
+.tab_active{
+    background-color: var(--active);
+    color: var(--text-active-color);
+}
+.tab_active :hover{
+    cursor: default;
+}
+.img_p{
+    margin-right: 5%;
+    height: 300px;
+    max-width: 70%;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    display: none;
+    background-color: var(--background-content-color);
+}
+.active{
+    display: flex;
+}
+@media (max-width: 600px){
+    img{
+        max-width: 80%;
+    }
+    .presentation{
+        display: block;
+    }
+    .projet{
+        display: block;
+    }
+    .passion{
+        display: block;
+    }
+    .img_p{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .texte_p{
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10px;;
+    }
+    .content{
+        display: none;
+        background-color: var(--background-content-color);
+    }
+    .active{
+        display: block;
+    }
+}
