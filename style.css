@@ -90,10 +90,6 @@ h4 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
-    border-radius: 40px;
-    padding-right: 3em;
-    padding-bottom: 3em;
 }
 
 #fmab {
@@ -102,6 +98,18 @@ h4 {
 
 #tkrvg {
     width: 104%;
+}
+
+.passion2 {
+    background-color: black;
+    border-radius: 40px;
+    padding-right: 3em;
+    padding-bottom: 2em;
+}
+
+#anime_manga {
+    text-align: center;
+    padding-top: 1em;
 }
 
 .manga,
