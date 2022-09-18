@@ -17,6 +17,10 @@ body{
     justify-content: flex-end;
     padding-right: 0.5%;
 }
+.ul_nav a{
+    text-decoration: none;
+    color: black;
+}
 
 .ul_nav li{
     font-size: 40px;
@@ -88,7 +92,6 @@ body{
     padding-top: 30px;
     display: flex;
     justify-content: space-around;
-    background-color: blueviolet;
 }
 
 
@@ -99,30 +102,73 @@ body{
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+.image_histoire img{
+    max-height: 100%;
+    width: 730px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.image_jv img{
+    max-height: 100%;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
 
 /* TEXTE */
 
 .texte{
     width: 40%;
     padding-top: 5%;
-    background-color: aqua;
+    background-color: rgb(75, 75, 75);
     border-radius: 100px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.texte_echec{
+.texte_passion{
     height: 390px;
     width: 40%;
     padding-top: 5%;
-    background-color: aqua;
+    background-color: rgb(75, 75, 75);
     border-radius: 100px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.texte_projet{
+    height: 425px;
+    width: 40%;
+    padding-top: 5%;
+    background-color: rgb(75, 75, 75);
+    border-radius: 100px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.histoire{
+    height: 340px;
+}
+.jv{
+    height: 330px;
 }
 
 .texte h2{
     padding-top: 15px;
     margin-inline: 20%;
+    color: antiquewhite;
+}
+.texte_passion h2{
+    padding: 15px 35px;
+    color: antiquewhite;
+}
+.texte_projet h2{
+    padding-top: 5em;
+    margin-inline: 10%;
+    color: antiquewhite;
 }
 
 .none{
     display: none;
+}
+
+/* VIDEO */
+
+.image video{
+    max-height: 100%;
 }
