@@ -108,3 +108,44 @@ h4 {
 .anime {
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 10px;
+    }
+    #presentation {
+        line-height: 2em;
+        padding: 1em;
+    }
+    button {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1024px) {
+    body {
+        font-size: 14px;
+    }
+    #presentation {
+        line-height: 3em;
+        padding: 1.5em;
+    }
+    button {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1700px) {
+    body {
+        font-size: 18px;
+    }
+    #presentation {
+        line-height: 4em;
+        padding: 2em;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    button {
+        font-size: 16px;
+    }
+}
