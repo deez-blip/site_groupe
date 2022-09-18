@@ -17,6 +17,11 @@ body {
     padding-right: 0.5%;
 }
 
+.ul_nav a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
 .ul_nav li {
     font-size: 40px;
     padding-inline: 20px;
@@ -139,6 +144,26 @@ h4 {
     width: 40%;
 }
 
+.escalade {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;
+    color: black;
+    background-color: black;
+    padding: 2em;
+    border-radius: 40px;
+}
+
+#texte_escalade {
+    background-color: #FF0000;
+    border-color: #870000;
+    border-style: groove;
+    padding: 2em;
+    text-align: center;
+    line-height: 2em;
+}
+
 @media screen and (max-width: 600px) {
     body {
         font-size: 10px;
@@ -168,6 +193,11 @@ h4 {
     .ul_nav li {
         font-size: 20px;
         padding-inline: 20px;
+    }
+    #texte_escalade {
+        padding: 1em;
+        line-height: 1em;
+        margin-left: 1em;
     }
 }
 
