@@ -7,7 +7,7 @@ body{
 }
 .navbar{
     width: 100%;
-    background-color: blueviolet;
+    background-color: black;
     text-align: end;
 }
 
@@ -19,7 +19,7 @@ body{
 }
 .ul_nav a{
     text-decoration: none;
-    color: black;
+    color: antiquewhite;
 }
 
 .ul_nav li{
