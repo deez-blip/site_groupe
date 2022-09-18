@@ -11,7 +11,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: var(--text-font);
     list-style: none;
 }
 body{
@@ -25,6 +24,9 @@ ul{
     margin-bottom: 20px;
     margin-top: 20px;
     flex-wrap: wrap;
+}
+p{
+    font-family: var(--paragraph-font);
 }
 nav{
     width:100%;
@@ -45,13 +47,16 @@ nav{
 .ul_nav li{
     font-size: 40px;
     padding-inline: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
-p{
-    font-family: var(--paragraph-font);
-}
+
 h1{
     color: var(--active);
     text-align: center;
+    font-family: var(--text-font);
+}
+h2{
+    font-family: var(--text-font);
 }
 .tab{
     background-color: var(--inactive);
