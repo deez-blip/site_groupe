@@ -2,7 +2,7 @@
 	--main-color:rgba(20, 80, 200, 0.2);
 	--text-color:#000;
     --text-active-color: #fff;
-	--active:#6758a2;
+	--active:#730baa;
     --inactive:#bbb;
 	--text-font:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     --paragraph-font: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
@@ -28,6 +28,10 @@ ul{
 p{
     font-family: var(--paragraph-font);
 }
+h1{
+    color: var(--active);
+    text-align: center;
+}
 .tab{
     background-color: var(--inactive);
     color: var(--text-color);
@@ -43,25 +47,16 @@ p{
 .tab_active :hover{
     cursor: default;
 }
-.texte_passion{
-    margin-left: 10%;
-    margin-right: 10%;
+.img_p{
+    margin-right: 5%;
+    max-width: 50%;
 }
-.texte_projet{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.presentation{
+.content{
     display: flex;
     flex-direction: row;
     margin-left: 10%;
     margin-right: 10%;
     align-items: center;
-}
-.img_presentation{
-    margin-right: 5%;
-}
-.content{
     display: none;
     background-color: var(--background-content-color);
 }
@@ -69,15 +64,24 @@ p{
     display: flex;
 }
 @media (max-width: 600px){
+    img{
+        max-width: 80%;
+    }
     .presentation{
         display: block;
     }
-    .img_presentation{
+    .projet{
+        display: block;
+    }
+    .passion{
+        display: block;
+    }
+    .img_p{
         display: block;
         margin-right: auto;
         margin-left: auto;
     }
-    .texte_presentation{
+    .texte_p{
         margin-right: 5%;
         margin-left: 5%;
         margin-top: 10px;;
